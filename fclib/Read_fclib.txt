@@ -1,0 +1,25 @@
+This "fclib" folder stands for the library of functions used in the construction of BeiYa Store, which contains:
+1.beiya_fclib.php (require_once all the libs)
+2.db_func.php 	  (functions only to deal with database)
+3.data_valid.php  (functions about data validity)
+4.data_check.php  (functions checking or getting certain data due to the databse)
+5.output_func.php (functions mostly for showing html tags to display on the web)
+6.user_func.php   (functions used by the "user" folder)
+7.comm_disp_fclib.php (specially for showing info of categories, commodities,etc)
+8.cart_func.php
+9.dealer_func.php
+10.shop_func.php
+11.upload_func.php
+
+#################################################################
+Convienience for front design:
+5.output_func.php
+function display_button  <a class="general_button">
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Points needs improving:
+1.comm_disp_fclib.php  
+ The "like" button-- needs to be active and Ajax
+

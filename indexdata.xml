@@ -1,0 +1,67 @@
+<indexdata>
+<siterec>
+<item>
+	<commid>1</commid>
+	<title>Ten Great Works of Philosophy</title>
+	<picid>0</picid>
+	<price>20.0</price>
+</item>
+<item>
+	<commid>10002</commid>
+	<title>Anecdotes of Lake Anthium</title>
+	<picid>20002</picid>
+	<price>150.0</price>
+</item>
+<item>
+	<commid>10003</commid>
+	<title>The Serene Creek Sonnets</title>
+	<picid>20003</picid>
+	<price>100.0</price>
+</item>
+<item>
+	<commid>10002</commid>
+	<title>Anecdotes of Lake Anthium</title>
+	<picid>20002</picid>
+	<price>150.0</price>
+</item>
+<item>
+	<commid>10003</commid>
+	<title>The Serene Creek Sonnets</title>
+	<picid>20003</picid>
+	<price>100.0</price>
+</item>
+</siterec>
+
+<newitems>
+<item>
+	<commid>1</commid>
+	<title>Ten Great Works of Philosophy</title>
+	<picid>0</picid>
+	<price>20.0</price>
+</item>
+<item>
+	<commid>2</commid>
+	<title>Learning Perl</title>
+	<picid>0</picid>
+	<price>43.0</price>
+</item>
+<item>
+	<commid>10004</commid>
+	<title>Perl Cookbook,2e</title>
+	<picid>0</picid>
+	<price>72.3</price>
+</item>
+<item>
+	<commid>10002</commid>
+	<title>Anecdotes of Lake Anthium</title>
+	<picid>20002</picid>
+	<price>150.0</price>
+</item>
+<item>
+	<commid>10003</commid>
+	<title>The Serene Creek Sonnets</title>
+	<picid>20003</picid>
+	<price>100.0</price>
+</item>
+</newitems>
+</indexdata>

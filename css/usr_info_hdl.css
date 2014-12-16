@@ -1,0 +1,27 @@
+div.usr-info{  
+	margin-left: 20px;
+	margin-top: 100px;
+	width: 300px;
+	background-color:#e5eecc;
+	text-align: center;
+}
+div.usr-info-hd{
+
+}
+div.uinfo-panel{
+	display:none;
+}
+div.u-pa-li{
+
+}
+div.order-hdl{
+	background-color: #ccffee;
+}
+div.ohdl-panel{
+	display:none;
+}
+
+div#handleBlank{
+	float:none;
+	margin-top: 400px;
+}

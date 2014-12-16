@@ -1,0 +1,58 @@
+.register{
+	width:980x;
+	height:auto;
+	margin:0;
+	padding:0;
+	font: 16px/1.8 "寰\xAE杞\xAF\xE9\x9B\x85榛\x91",tahoma,arial;
+	padding-top:30px;
+	padding-left:180px;
+	border:2px solid #BABABA;
+}
+.register-list{
+	width:400px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+
+}
+.register-list span{
+	float: left;
+	line-height: 28px;
+    text-align: right;
+	width:100px;
+	margin-left: -100px;
+}
+.register-list div{
+	padding:10px 0 20px 10px;
+	width:220px;
+	margin::0;
+}
+.register-list input{
+	margin: 0 auto;
+	padding: 0;
+	border: 2px solid #BABABA;
+    color: rgb(0,0,0);
+    font: 16px/31px arial;
+    height: 31px;
+    outline: medium none;
+    vertical-align: top;
+}
+#register1_code{
+	width: 60px;
+}
+#register1_id,#register1_pwd,#register1_rpwd{
+
+    width: 200px;
+}
+#confirm{
+	padding-left:70px;
+}
+.confirm-btn{
+    background: url("../img/confirmBtn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin-left: -2px;
+    width: 70px;
+}

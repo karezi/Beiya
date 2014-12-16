@@ -1,0 +1,62 @@
+This "cart" folder includes phpscripts for presenting the shopcart module, which contains:
+1.show_cart.php
+2.checkout.php
+3.purchase.php
+4.final.php
+5.finish.php
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Hints:
+1 cart_func.php in "fclib" folder provides important functions needed in this cart module
+2 checkout.php    
+ The bizarre logic in receiptor info:
+ If it's verified that this is a valid user on-line, as we may have 2 addresses,(say we do have 2) as using two forms isn't so necessary, I register those receiptor info in $_SESSION, and use a $_GET['vu_addr'] to indicate which address the customer choosed.
+
+3 for the order
+I registered a number of session variables for the order:
+ $_SESSION['receiptorInfo']['receiptorname']
+ $_SESSION['receiptorInfo']['postCode']
+ $_SESSION['receiptorInfo']['address']
+ $_SESSION['receiptorInfo']['userPhoneNo']
+ $_SESSION['valid_user']
+ $_SESSION['cart'] 
+ $_SESSION['total_price']
+ $_SESSION['item']
+
+
+
+#################################################################
+Convienience for front design:
+1.show_cart.php   =>show_cart.html
+ <1 $header 
+   <div class="header"><span class="hd_lnks">
+ <2 $footer
+ <3 $cart_block1: <table class="cart_table"><tr id=$commid><th><td><a class="link_pic">
+ <4 there may insert or change some blocks between $cart_block1 and $cart_endblock
+ <5 $cart_changeblock
+ <6 $cart_endblock  <div class="cart_endblock">
+                                                     <p id="item_num">
+                                                     <p id="total_price">
+2.checkout.php
+<div class=\"header_lnks\">
+<div class=\"cart_info\">
+    <table class=\"cart_table\">
+if($_SESSION['valid_user']): <div class="checkout_form"><div class=\"addr_1\"><div class=\"addr_2\">( it's not sure we'll have two addresses)<span class=\"purchase_but\">
+<a href=\"purchase.php?vu_addr=1\" class=\"purchase_but\">
+else:<table class=\"checkout_form\">
+<div class=\"purchase\">
+<div class="footer">
+
+3.purchase.php
+<div class="login_form">
+
+4.final.php
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Functions still needed:
+1 send order info to shop owners after final.php
+2 ajax for change the shop cart
+3 in checkout.php, we need to give the right of creating a new address info to a valid user. 
+
+
+  

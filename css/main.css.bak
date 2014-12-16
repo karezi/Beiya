@@ -1,0 +1,349 @@
+@charset "gb2312";
+body{
+
+	font: 12px/1.5 "微软雅黑",arial,helvetica,clean,sans-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+	background: rgb(0,168,255);
+	height:50px;
+	width:100%;
+	overflow: hidden;
+	margin-bottom:30px;
+}
+#header .content{
+		width:980px;
+	margin:0 auto;
+}
+.logo1{
+	float:left;
+}
+#header .user{
+	float:right;
+	font: 18px/1.5 "微软雅黑",arial,helvetica,clean,sans-serif;
+	font-weight:bold;
+	margin:0 auto;
+	padding:0 auto;
+	width:90px;
+	text-align:center;
+	line-height:50px;
+}
+#header .login{
+	float:right;
+	font: 18px/1.5 "微软雅黑",arial,helvetica,clean,sans-serif;
+	font-weight:bold;
+	margin:0 auto;
+	padding:0 auto;
+	width:90px;
+	text-align:center;
+	line-height:50px;
+}
+#header .register{
+	float:right;
+	font: 18px/1.5 "微软雅黑",arial,helvetica,clean,sans-serif;
+	font-weight:bold;
+	margin:0 auto;
+	padding:0 auto;
+	width:90px;
+	text-align:center;
+	line-height:50px;
+}
+#navigation{
+	background: rgb(255,171,17);
+	height:60px;
+	margin: 0 auto;
+	padding: 0 auto;
+	width:980px;
+}
+
+#navigation #Info{
+	font: 24px/1.5 "微软雅黑",arial,helvetica,clean,sans-serif;
+	font-weight:bolder;
+	float:left;
+	text-align:center;
+}
+#Info li{
+	width:80px;
+	float:left;
+	  position:relative;
+}
+#InfoBg{
+		background-image:url(../img/category.png)
+}
+#Info ul ul{
+	width:500px;
+	padding-top:-10px;
+	font-size:24px;
+	z-index:-1;
+	position:relative;
+	display:none;
+}
+#Info li{
+	line-height:60px;
+}
+.hover{
+	display:block;
+}
+.InfoDetail li{
+	margin-top:10px;
+  float: left;
+  font-family: 微软雅黑,Arial;
+  font-size: 24px;
+  line-height: 50px;
+  display:block;
+  height:48px;
+}
+.logo2{
+	float:left;
+}
+.search{
+	margin: 0 auto;
+	margin: 0 20px 0 0;
+	margin-top:15px;
+	background:#FFF;
+	float:right;
+	
+}
+.search2 {
+	float:left;
+	height:35px;
+}
+.search input{
+	background: url(../img/searchSign.png) no-repeat scroll 3px -1px transparent;
+	margin: 0 auto;
+	padding: 0;
+	border: 2px solid rgb(186,186,186);
+    color: #BABABA;
+    float: left;
+    font: 12px/31px arial;
+    height: 35px;
+    outline: medium none;
+    padding-left: 36px;
+    vertical-align: top;
+    width: 210px;
+}
+.search-btn{
+    background: url("../img/searchBtn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin-left: -2px;
+    width: 65px;
+}
+#user{
+	height:60px;
+	margin: 0 auto;
+	width:980px;
+	background:rgb(0,168,255);
+	font-size:18px;
+}
+
+#user_0{
+	width:100px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	float:right;
+	transition-duration: 0.7s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+}
+
+.nums ul li a {
+    color: rgb(102, 102, 102);
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(238, 238, 238);
+}
+.nums a {
+    display: none;
+}
+a {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.nums ul li {
+    font-family: 微软雅黑,Arial;
+    font-size: 12px;
+    line-height: 16px;
+}
+h1, h2, h3, h4, h5, h6, ul, li {
+    list-style-type: none;
+}
+#main{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+#content{
+	width:980px;
+	height:auto;
+	margin:0 auto;
+		margin-top:20px;
+}
+#content .title{
+	padding-bottom:30px;
+	padding-top:30px;
+}
+#content .content1,.content2,.content3{
+	width:980px;
+	height:100%;
+	margin:0 auto;
+	clear:both;
+}
+.bBox{
+	width:440px;
+	height:330px;
+	position:relative;
+	border:#000;
+	border-style: solid;
+	border-width:1px;
+	margin-left:20px;
+	float:left;
+}
+.bBox img{
+	width:440px;
+	height:330px;
+}
+.bBox .InfoBar{
+	width:440px;
+	position:absolute;
+	background:rgba(50,50,50,0.77);
+	height:60px;
+  	top: 270px;
+}
+.bBox .goodName{
+	margin:10px 0 0 20px;
+	width:300px;
+	float:left;
+	font-size:30px;
+	color: rgb(255, 255, 255);
+}
+.bBox .price{
+	margin:10px 0 10px 0px;
+	width:100px;
+	float:left;
+	font-size:18px;
+	color: rgb(0, 168, 255);
+}
+.bBox .price b{
+	font-size:30px;
+}
+.InfoBar{
+	float:left;
+}
+.lBoxS{
+	width:460px;
+	padding-left:10px;
+	float:left;
+}
+.lBoxS img{
+	width:212px;
+	height:159px;
+}
+.lBox1{
+	border:#000;
+	border-style: solid;
+	border-width:1px;
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+}
+.lBox2{
+	border:#000;
+	border-style: solid;
+	border-width:1px;
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+
+}
+.lBox3{
+	border:#000;
+	border-style: solid;
+	border-width:1px;
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+
+}
+.lBox4{
+	border:#000;
+	border-style: solid;
+	border-width:1px;
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+
+}
+.lBoxS .InfoBar{
+	width:212px;
+	position:absolute;
+	background:rgba(50,50,50,0.77);
+	height:40px;
+  	top: 119px;
+}
+.lBoxS .goodName{
+	margin:5px 0 0 10px;
+	width:150px;
+	float:left;
+	font-size:18px;
+	color: rgb(255, 255, 255);
+}
+.lBoxS .price{
+	margin:5px 0 5px 0px;
+	width:52px;
+	float:left;
+	font-size:12px;
+	color: rgb(0, 168, 255);
+}
+.lBoxS .price b{
+	font-size:18px;
+}
+#footer{
+	margin-top:30px;
+	background:rgb(0,0,0);
+	height:50px;
+	color:#FFF;
+	clear:both;
+}
+#footer p{
+	margin:  auto;
+	padding: 0px 0;
+	line-height:20px;
+	text-align: center;
+}
+a:link {
+text-decoration ： none ;
+}
+a:visited {
+text-decoration ：none ;
+color:#000;
+}
+a:hover {
+text-decoration ： none ;
+}
+a:active {
+text-decoration ：none;
+}
+#userInfo {
+	margin: 0 auto;
+	width:200px;
+}
+
+
+
+
+
+

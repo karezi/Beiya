@@ -1,0 +1,23 @@
+#checkout_form{
+	border:1px solid #BABABA;
+}
+.checkout_form{
+	margin:0 auto;
+	width:840px;
+}
+.adrass_confirm{
+	width:100px;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+.purchase_confirm{
+	width:300px;
+	margin:0 auto;
+	padding:20px;	
+	
+}
+.addr{
+	padding:20px;
+	margin:0 auto;
+	width:840px;
+}

@@ -1,0 +1,64 @@
+This "show" folder contains:
+1. show_biggenre.php
+2. show_smallgenre.php
+3. show_category.php
+4. show_commodity.php
+
+@@@This design may be a little bit illogical, so any good advice shall be valued wholeheartedly.
+
+ Here we: 
+ 1 show big genres in the index page, 
+ 2 show the small genres of a big genre in show_biggenre.php,
+ 3 show the categories under a small genre in show_smallgenre.php,
+ 4 show the commodities under a category in show_category.php,
+ 5 show the details of one commodity in show_commodity.php where we check if the commodity is a book previously because the showing of a book is a little bit different not only due to its own traits, but on behalf of we students who crave for books especially.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"comm_disp_fclib.php" is especially written as a function library for this showing module.
+ 
+
+########################################################################
+Convienience for front design:
+
+1. The html tags with classes or ids exist in the htmls in folder "/templates" and in functions in "comm_disp_fclib.php".
+Present as following:
+ 
+ getHtmlStr_categories() : [show_biggenre.html]
+<ul> <li> <a class="cates_links">
+
+ getHtmlStr_comms() : [show_category.html]
+<div class="comms">
+<div class="single_comm">
+ <a class="comm_link">(also the title of the commodity)</a>
+ <span class="likeNo">
+ <div class=\"page_contr\">
+    <a class="word_page">(last, next),<a class="num_page">(1,2,3....)
+
+
+getHtmlStr_comm_details():
+ <span class="likeNo">
+<div class=\"add2cart\"><a href=\"\" class=\"add2cart\">
+
+2. "show_commodity.php" "show_comm.html":
+
+$header   <div class="show_header"><div class="header_button"><a class=\"check_cart\">
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Points need improvement:
+1 "comm_disp_fclib.php"
+add to cart button -- ajax &change $_SESSION when clicked
+like button -- ajax  &change $_SESSION when clicked
+2 like 
+3 the presentation of comments
+
+2 <div class="comment_block">(¼´comm_block2)
+       <div class="single_comment">
+          <div class=\"comment_user\"></div>
+          <div class=\"comment_text\"></div> 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Displaying Variables
+1 pagesize in  show_category.php 
+

@@ -1,0 +1,58 @@
+#login{
+	width:980x;
+	height:auto;
+	margin:0;
+	padding:0;
+	font: 16px/1.8 "微软雅黑",tahoma,arial;
+	padding-top:30px;
+	padding-left:180px;
+	border:2px solid rgb(7, 149, 214);
+}
+.login-list{
+	width:400px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+
+}
+.login-list span{
+	float: left;
+	line-height: 28px;
+    text-align: right;
+	width:100px;
+	margin-left: -100px;
+}
+.login-list div{
+	padding:10px 0 20px 10px;
+	width:220px;
+	margin::0;
+}
+.login-list input{
+	margin: 0 auto;
+	padding: 0;
+	border: 2px solid #BABABA;
+    color: rgb(0,0,0);
+    font: 16px/31px arial;
+    height: 31px;
+    outline: medium none;
+    vertical-align: top;
+}
+#login1_code{
+	width: 60px;
+}
+#username,#password{
+
+    width: 200px;
+}
+#confirm{
+	padding-left:70px;
+}
+.confirm-btn{
+    background: url("../img/confirmBtn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin-left: -2px;
+    width: 70px;
+}

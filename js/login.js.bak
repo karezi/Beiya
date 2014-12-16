@@ -1,0 +1,107 @@
+$(document).ready(function(){
+	var username=$("#username");
+	var password=$("#password");
+	var password2=$("#password2");
+	var email=$("#email");
+	var username_info=$("#username_info");
+	var password_info=$("#password_info");
+	var password2_info=$("#password2_info");
+	var email_info=$("#email");
+
+	$username.focus(function(){
+		var info=$username_info;
+		$username.css({"visibility": 'visible'});
+		if($username.val()==""){
+			$info.val("用户名不能为空");
+		}
+		else if($username.val().length<2||$username.val().length>16){
+			info.val("姓名长度不符合");
+		}
+	});
+	$username.blur(function(){
+		var info=$username_info;
+		if($username.val()==""){
+			$info.val("用户名不能为空");
+			$username.css({"border":'1px solid rgb(255, 128, 128)'});
+		}
+		else if($username.val().length<2||$username.val().length>16){
+			info.val("姓名长度不符合");
+			$username.css({"border":'1px solid rgb(255, 128, 128)'});
+		}else{
+			info.val("");;
+		}
+	});
+})
+
+
+ <!--检验用户名-->
+function checkUserName()
+{
+	var name=document.register.username;
+	var info=document.getElementById("userInfo");
+
+		info.innerHTML="只能输入字母或数字，4-16个字符!";
+	return true;
+}
+
+<!--密码验证-->
+function checkPass()
+{
+	var pass=document.register.password;
+	
+	var pwdInfo=document.getElementById("pwdInfo");
+	
+	if(pass.value=="")
+	{
+		pwdInfo.innerHTML="<font color='red'>请输入密码！</font>";
+		pass.focus();
+		pass.select();
+		return false
+		}else if(pass.value.length<6||pass.value.length>12){
+			pwdInfo.innerHTML="<font color='red'>密码的长度为6-12！</font>";
+			pass.focus();
+			pass.select();
+			return false;
+		}
+	pwdInfo.innerHTML="密码的长度为6-12！";
+	return true;
+	
+	}
+<!--邮箱验证-->	
+function checkEmail(){
+	var email=document.register.email;
+	var info=document.getElementById("email_info");
+	if(email.value==""){
+		info.innerHTML="电子邮件地址不能为空";
+		email.select();
+		email.focus();
+		return false;
+		}
+	else if(email.value.indexOf(".",0)==-1||email.value.indexOf("@",0)==-1){
+		info.innerHTML="电子邮件的格式不正确";
+		email.select();
+		email.focus();
+		return false
+		}
+	return true
+	}
+	
+<!--验证确认密码-->	
+function checkRePass(){
+	var pass=document.register.password;
+	var rePass=document.register.password2;
+	var rePwdInfo=document.getElementById("password2_info");
+	
+	if(rePass.value==""){
+			rePwdInfo.innerHTML="<font color='red'>确认密码不能为空！</font>";
+			rePass.focus();
+			rePass.select();
+			return false;
+		}
+		else if(rePass.value!=pass.value){
+			rePwdInfo.innerHTML="<font color='red'>密码与确认密码不相同！</font>";
+			return false;
+		}
+		rePwdInfo.innerHTML="";
+		return true;
+	}

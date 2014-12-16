@@ -1,0 +1,1 @@
+This "shop" folder is a set of the phpscripts of the online store.(May turn out to be O2O, who the heck knows?)

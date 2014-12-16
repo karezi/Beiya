@@ -1,0 +1,96 @@
+V2013 02 26 相较于V 2013 02 26 18:01改动的文件:
+
+@ 做了修改或者新添的文件（zx）：
+
+先是根目录下：
+indexdata.xml
+timer01.py
+timer02.py
+
+----fclib----	
+	beiya_fclib.php
+	comm_disp_fclib.php 改动了show_category,show_commodity的相关函数，大量减少了数据库的访问次数；
+	cart_func.php
+	data_check.php
+	shop_func.php
+	dealer_func.php 删掉了。我把内容放在shop_func.php里面了
+	user_func.php
+	新增security.php	
+
+----core----
+	cart_show.php
+	cart_checkout.php
+	cart_purchase.php
+	core.php
+	shop_goods_show.php
+	shop_welcome.php
+	shop_view.php(新增页面，用来应对非owner用户的改动)
+	show_commodity.php
+	usr_login.php
+	usr_info_handle.php
+
+----templates----
+	index.html
+
+----数据库----
+	commentinfo：cTime字段的类型改为timestamp；删去userId和userName 字段； isbn,author,press三个字段一定	要有默认值；
+	userinfo加入列shopId; 只留shopId（去掉dearId,isDealer; 加上receiptor和	receiptorSec,userSecPhoneNo,postcodeSec字段
+	categories表去掉列sgenId
+	rating表：
+		id,idtype('c' for commodity,'s' for shop),votes,total,l_r(last rating time);
+	新增raty表：（记录每次投票）
+		id,idtype,value， (此次评分的人) uid,uname,uip,r_time[timestamp]
+	comminfo加入字段add_time（即加入此商品的时间）;
+	删去表biggenres和smallgenres；
+	shopinfo表：
+		删去userPraise，用rating项（此处的rating用外部脚本定时检测来更新）；
+		之前写的ratings,现在改成rating，相关的页面我已经更改了
+	删去likeTable；
+	orderinfo表:加入receiptor，phoneNo； 改变orderDate类型为timestamp； orederId取消A_I；
+	
+
+
+V2013 03 04(加上了好友部分):
+
+
+----数据库----
+	
+	@ 有关好友部分：{
+	feeds表：id(每条feed都有一个id),au_id( Author id ),au_name,idtype('f' for friends,'s' for shops,'n' for notifications),timestamp,content（注意格式，若idtype='n'，则其标题与内容用"#vn^si#"隔开）,nuname(notification的目的用户的用户名，仅当idtype为'n'时不为空)，nread(用'y','n'标示notification是否已读，仅当idtype为'n'时不为空);	
+ 	userInfo表:userBudId 用#间隔；删去userPhotoId；增加favshopsid(关注的店铺的列表);
+	}
+
+待添加的内容或待解决的问题：
+	friends_main.php:
+	显示feed时连接到好友个人的什么地方？  
+	memcached
+
+----core----
+	friends
+----templates----
+	friends
+
+V2013 03 07 进行usr_info_handle.php和shop部分的修改：
+----img----
+	shops文件夹--存储一个shop的主图片的thumb_pic（.png，以thumb_为前缀）
+----css----
+	usr_info_hdl.css
+----js----
+	usr_info_hdl.js
+----fclib----
+	data_check.php
+	user_func.php @[把get_own_info_hdl改成表单或者可更改的形式；数据即时验证的美化]
+----core----
+	cart_finish.php
+	usr_info_hdl.php 
+	usr_info_hdl_re.php （用来处理usr_info_hdl.js传来的post信息）
+----templates----
+	usr_info_handle.html
+	@(<div id="userInfo"> 下面的菜单在页面左边，<div id="handleBlank">在页面的右边)
+
+
+----数据库----
+	orderinfo添加userName,shopName,commTitle字段；
+	comminfo添加shopName；
+	userinfo添加shopName，userPhotoId默认0；
+	shopinfo加入userName；

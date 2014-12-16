@@ -1,0 +1,421 @@
+#userInfo {
+	margin: 0 auto;
+	width:400px;
+}
+#userInfo div{
+	float:left;
+	margin:0 10px 0 20px;
+}
+#userInfo a{
+	padding:0 20px 0 20px;
+}
+#logout {
+	margin: 0 auto;
+	padding:0 auto;
+	width:200px;
+}
+#usr_orderform h3{
+	background-color: rgb(7, 149, 214);
+  color: rgb(247, 247, 247);
+}
+#usr_orderform{
+	border:solid 1px rgb(7, 149, 214);
+}
+#orderForm{
+	margin:10px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+		width:100%;
+}
+table img{
+	text-align: center;
+		margin:0 auto;
+		padding:0 auto;
+    width:80px;
+    height:80px;
+}
+
+table thread{
+border: 1px solid rgb(34, 34, 34);
+}
+table th{
+    font-weight: normal;
+    padding: 5px 10px;
+    white-space: nowrap;
+		background-color: rgb(51, 51, 51);
+    border-right: 1px solid rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+table td{
+	  background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(204, 204, 204);
+		margin: 0;
+	 	padding:10px;
+		text-align: center;
+}
+table div{
+	margin:0 auto;
+}
+#shopInfoform{
+	width:980px;
+}
+#shop_handle{
+	width:850px;
+	margin:0 auto;
+	padding-bottom:80px;
+}
+#shop_handle div{
+	float:left;
+	width:200px;
+	margin:0 auto;
+}
+#shopInfoform #InfoForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+#InfoForm{
+	border:solid 1px rgb(7,149,214);	
+}
+#shopInfoTable{
+	width:400px;
+	clear:both;
+	margin:40px auto 40px auto;	
+}
+#goodsInfo{
+	margin:10px;
+}
+#uploadForm{
+	border:1px solid rgb(7, 149, 214);
+}
+#uploadForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+#uploadForm form{
+	margin: 20px 0 50px 250px;
+}
+#uploadForm form .button{
+	margin: 20px 0 0px 150px;
+}
+#uploadForm form p span{
+	width:120px;
+	display: inline-block;
+	text-align: right;
+	line-height: 4em;
+	font-weight: 600;
+	font-size:14px;
+}
+#fillForm{
+	border:1px solid rgb(7, 149, 214);
+}
+#fillForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+#fillForm form{
+	margin: 20px 0 50px 250px;
+}
+#fillForm form .button{
+	margin: 20px 0 0px 150px;
+}
+#fillForm form p span{
+	width:120px;
+	display: inline-block;
+	text-align: right;
+	line-height: 4em;
+	font-weight: 600;
+	font-size:14px;
+}
+#goodsForm{
+	border:1px solid rgb(7, 149, 214);
+}
+#goodsForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+.hint{
+	width:400px;
+	height:150px;
+	margin:0 auto;
+}
+.hint_cart_empty{
+	background: url("../img/hint_cart_empty.png");
+}
+.mid_div{
+	width:400px;
+}
+.hide{
+	visibility: hidden;
+}
+
+.bBox{
+	width:440px;
+	height:330px;
+	position:relative;
+	border:solid 1px rgb(221, 221, 221);
+	border-style: solid;
+	border-width:1px;
+	margin-left:20px;
+	float:left;
+}
+.bBox img{
+	width:440px;
+	height:330px;
+}
+.bBox .InfoBar{
+	width:440px;
+	position:absolute;
+	background:rgba(50,50,50,0.77);
+	height:60px;
+  	top: 270px;
+}
+.bBox .goodName{
+	margin:10px 0 0 20px;
+	width:300px;
+	float:left;
+	font-size:24px;
+	color: rgb(255, 255, 255);
+}
+.bBox .price{
+	margin:10px 0 10px 0px;
+	width:100px;
+	float:left;
+	font-size:12px;
+	color: rgb(0, 168, 255);
+}
+.bBox .price b{
+	font-size:24px;
+}
+.InfoBar{
+	float:left;
+}
+.lBoxS{
+	width:460px;
+	padding-left:10px;
+	float:left;
+}
+.lBoxS img{
+	width:212px;
+	height:159px;
+}
+.lBox1 .lBox2 .lBox3 .lBox4{
+	width:212px;
+	height:159px;
+}
+.lBox1{
+	border:solid 1px rgb(221, 221, 221);
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+}
+.lBox2{
+	border:solid 1px rgb(221, 221, 221);
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+	float:left;
+
+}
+.lBox3{
+	border:solid 1px rgb(221, 221, 221);
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+
+}
+.lBox4{
+	border:solid 1px rgb(221, 221, 221);
+	float:left;
+	position:relative;
+	margin:0px 8px 8px 8px;
+
+}
+.lBoxS .InfoBar{
+	width:212px;
+	position:absolute;
+	background:rgba(50,50,50,0.77);
+	height:40px;
+  	top: 119px;
+}
+.lBoxS .goodName{
+	margin:5px 0 0 10px;
+	width:140px;
+	float:left;
+	font-size:18px;
+	color: rgb(255, 255, 255);
+}
+.lBoxS .price{
+	margin:5px 0 5px 0px;
+	width:52px;
+	float:left;
+	font-size:12px;
+	color: rgb(0, 168, 255);
+}
+.lBoxS .price b{
+	font-size:18px;
+}
+.lBoxS img{
+	width:212px;
+	height:159px;
+}
+.goodsBox{
+	width:312px;
+	margin:0 7px 20px 7px;
+	float:left;
+	position:relative;
+	
+}
+.goodsBox img{
+	width:308px;
+	height:229px;
+}
+.goodsBox .InfoBar{
+	width:308px;
+	position:absolute;
+	background:rgba(50,50,50,0.77);
+	height:50px;
+  top: 179px;
+}
+.goodsBox .goodsname{
+	width:200px;
+	height:50px;
+	color:rgb(255,255,255);
+	font-size:18px;
+	float:left;
+	line-height:40px;
+	margin:0 0 0 20px;
+
+}
+.goodsBox .price{
+	margin:5px 0 5px 0px;
+	width:52px;
+	float:left;
+	font-size:12px;
+	color: rgb(0, 168, 255);
+	line-height:60px;
+}
+.goodsBox .price{
+	font-size:18px;
+}
+.page_contr{
+	clear:both;
+}
+.pagination{
+    clear: both;
+    padding: 30px 0 20px;
+    width: 780px;
+}
+.pagination span{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+	padding: 3px 10px;
+}
+
+.pagination span.current, .pagination span.page:hover {
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+	padding: 3px 10px;
+		 display: inline-block;
+    display: inline-block;
+}
+.pagination span:hover a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.pagination span a {
+	 display: inline-block;
+	color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.pagination span.next a {
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+span.next {
+    background: url("../img/next.png") no-repeat scroll 0 0 transparent;
+    padding-left: 0;
+    padding-right: 10px;
+	transparent;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    width: 62px;
+}
+.goodsImage img{
+	width:480px;
+	height:360px;
+}
+.goodsImage{
+	float:left;
+	border:#000;
+	border-style:solid;
+	border-width:1px;
+	margin-left:50px;
+}
+.goodsDetail{
+	width:300px;
+	float:left;
+	margin-left:50px;
+}
+.goodsDetail div{
+	margin:10px 0 10px 0;
+}
+.goodsDetail #item_form{
+	margin:40px 0 0px 0;
+}
+#add_cart{
+	margin-left:14px;
+}
+#buy_now{
+	margin-left:18px;
+}
+.goodsDetail item_number{
+	width:300px;
+	margin-left:90px;
+}
+.goodsDetail input.quantity {
+	width:100px;
+}
+.goodsDetail h3{
+	margin-bottom:10px;
+	margin-left:50px;
+}
+span.goodItem{
+	width:70px;
+	float: left;
+	color:rgb(120,120,120);
+}
+.item_number{
+	margin:0 0 20px 20px;
+}
+.goods_name{
+	font-size:24px;
+	margin-bottom:20px;
+}
+.price{
+	font-size:18px;
+}
+.price1{
+	font-size:24px;
+}
+.cate_add{
+	margin-left:30px;
+	margin-top:20px;
+}
+.buy_now{
+	margin-left:32px;
+	margin-top:20px;
+}
+.goods_text{
+	clear:both;
+}

@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>{{$title}}</title>
+	<link rel="stylesheet" href="../css/main.css" type="text/css" />
+<link rel="stylesheet" href="../css/content.css" type="text/css" />
+<link rel="stylesheet" href="../css/goodInfo.css" type="text/css" />
+<link rel="stylesheet" href="../css/button.css" type="text/css" />
+<link rel="stylesheet" href="../css/shopping_cart.css" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js" ></script>
+<script type="text/javascript" src="../js/search.js" ></script>
+<script type="text/javascript" src="../js/button.js" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+	*{
+		text-decoration: none;
+	}
+	.header div{
+		text-align: right;
+	}
+	div.cart_table{
+	}
+	table.cart_table {
+		text-align: center;
+	}
+	table.cart_table tr th{
+		font-style: italic;
+		font-weight: bold;
+		font-family: fantasy;
+		background-color: #cddcdc;
+	}
+	table.cart_table tr td{
+		border: 1px solid black;
+		
+	}
+	td.tb_noneimg1{
+		font-size: 30px;
+		font-family: serif;
+		font-weight:bold;
+	}
+	td#del_button{
+		text-align: center;
+	}
+	td a{
+		text-align:center;
+	}
+	table.cart_table tr td img{
+		width:200px;
+		height:200px;
+	}
+	div.cart_endblock{
+		text-align: center;
+		text-shadow:1px,1px,1px;
+		color:blue;
+		font-family:times; 
+	}
+	div.cart_changeblock{
+		text-align: right;
+		font-family:times;
+	}
+	.lnk_button{}
+	a:visited{
+    	color:inherit;
+    }
+    
+	</style>
+</head>
+<body>
+	<script type="text/javascript" src="../js/ajax.js"></script>
+	<script type="text/javascript" src="../js/show_cart.js"></script>
+	<div id="header">
+			{{$header}}
+		</div>
+	<div id="navigation">
+	{{$navigation}}
+	</div>
+<div id="main">
+  <div id="content">
+		{{$show_cart_block1}}
+		{{$show_cart_changeblock}}
+		{{$show_cart_endblock}}
+
+	</div>
+	<div>{{$links}}</div>
+</div>
+{{$footer}}
+</body>
+
+</html>

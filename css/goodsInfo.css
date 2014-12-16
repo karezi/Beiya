@@ -1,0 +1,44 @@
+.goodsImage img{
+	width:600px;
+	height:450px;
+}
+.goodsImage{
+	width:600px;
+	height:450px;
+	float:left;
+	border:#000;
+	border-style:solid;
+	border-width:1px;
+}
+.goodsDetail{
+	width:300px;
+	float:left;
+	margin-left:50px;
+}
+.goodsDetail p{
+	margin-bottom:10px;
+}
+.item_number{
+	margin-bottom:20px;
+}
+.goods_name{
+	font-size:24px;
+	margin-bottom:20px;
+}
+.price{
+	font-size:18px;
+}
+.price1{
+	font-size:24px;
+}
+.cate_add{
+	margin-left:30px;
+	margin-top:20px;
+}
+.buy_now{
+	margin-left:32px;
+	margin-top:20px;
+}
+.goods_text{
+	clear:both;
+}

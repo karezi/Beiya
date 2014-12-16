@@ -1,0 +1,53 @@
+#login{
+	width:980x;
+	height:auto;
+	margin:0;
+	padding:0;
+	font: 14px/1.8 "微软雅黑",tahoma,arial;
+	border:1px solid rgb(7, 149, 214);
+	clear:both;
+}
+#login h3{
+	padding:0 0 0 10px;
+	color:rgb(255,255,255);
+	background:rgb(0, 168, 255);
+}
+.login-list{
+	width:400px;
+	height:auto;
+	margin:0 auto;
+	padding:40px 0 0 160px;
+
+}
+.login-list span{
+	float: left;
+	line-height: 28px;
+    text-align: right;
+	width:100px;
+	margin-left: -100px;
+}
+.login-list div{
+	padding:10px 0 20px 10px;
+	width:220px;
+	margin::0;
+}
+.login-list input{
+	margin: 0 auto;
+	margin: 0 0 0 20px;
+	border: 1px solid #BABABA;
+    color: rgb(0,0,0);
+    font: 16px/31px arial;
+    height: 31px;
+    outline: medium none;
+    vertical-align: top;
+}
+#login1_code{
+	width: 60px;
+}
+#username,#password{
+
+    width: 200px;
+}
+#confirm{
+	padding-left:70px;
+}

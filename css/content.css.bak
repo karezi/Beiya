@@ -1,0 +1,98 @@
+#userInfo {
+	margin: 0 auto;
+	width:400px;
+}
+#userInfo a{
+	padding:0 20px 0 20px;
+}
+#logout {
+	margin: 0 auto;
+	padding:0 auto;
+	width:200px;
+}
+#shopInfoform{
+	width:980px;
+}
+#shop_handle{
+	width:700px;
+	margin:0 auto;
+	padding-bottom:80px;
+}
+#shop_handle div{
+	float:left;
+	width:200px;
+	margin:0 auto;
+}
+#shopInfoTable{
+	width:400px;
+	clear:both;
+	margin:0 auto;	
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+		width:100%;
+}
+
+table thread{
+border: 1px solid rgb(34, 34, 34);
+}
+table th{
+    font-weight: normal;
+    padding: 5px 10px;
+    white-space: nowrap;
+		background-color: rgb(51, 51, 51);
+    border-right: 1px solid rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+table td{
+	  background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(204, 204, 204);
+		margin: 0;
+	 	padding:10px;
+		text-align: center;
+}
+table div{
+	margin:0 auto;
+}
+#goodsInfo{
+	margin:10px;
+}
+#uploadForm{
+	border:1px solid rgb(7, 149, 214);
+}
+#uploadForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+#uploadForm form{
+	margin: 20px 0 50px 250px;
+}
+#uploadForm form .button{
+	margin: 20px 0 0px 150px;
+}
+#uploadForm form p span{
+	width:120px;
+	display: inline-block;
+	text-align: right;
+	line-height: 4em;
+	font-weight: 600;
+	font-size:14px;
+}
+#goodsForm{
+	border:1px solid rgb(7, 149, 214);
+}
+#goodsForm h3{
+	color:rgb(247, 247, 247);
+	background-color: rgb(7, 149, 214);
+}
+.hint{
+	width:400px;
+	height:150px;
+	margin:0 auto;
+}
+.hint_cart_empty{
+	background: url("../img/hint_cart_empty.png");
+}

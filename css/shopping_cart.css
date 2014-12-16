@@ -1,0 +1,70 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+	width:100%;
+}
+
+table threa{
+border: 1px solid rgb(34, 34, 34);
+}
+table th{
+    font-weight: normal;
+    padding: 5px 10px;
+    white-space: nowrap;
+	background-color: rgb(51, 51, 51);
+    border-right: 1px solid rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+table td{
+	    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(204, 204, 204);
+	 margin: 0;
+	 padding:10px;
+	 text-align: center;
+}
+.td_qty_ {
+    margin: 0 auto;
+    width: 110px;
+    text-align: center;
+    width: 50px;
+}
+
+input.cart_min,input.cart_add {
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    border:1px solid rgb(204, 204, 204);
+}
+
+.td_qty_, .item_number input#text_box {
+    height: 17px;
+    text-align: center;
+    width: 50px;
+}
+.purchase_but{
+	float:left;
+	margin-right:20px;
+}
+
+input.btn-medium {
+    border: 0 none;
+    cursor: pointer;
+}
+.leave_message{
+	float:left;
+}
+
+.item_total{
+	 text-align: right;
+}
+.submit_order{
+	float:right;
+}
+.link_pic img{
+	width:80px;
+	height:80px;
+	}

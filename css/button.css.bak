@@ -1,0 +1,90 @@
+
+.blue {
+    background-color: rgb(7, 149, 214);
+    border: 1px solid rgb(7, 149, 214);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.orange {
+    background-color: rgb(255, 171, 17);
+    border: 2px solid rgb(255, 171, 17);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.red {
+    background-color: rgb(204, 0, 0);
+    border: 2px solid rgb(204, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.button {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:"微软雅黑";
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    transition-duration: 0.3s;
+    vertical-align: baseline;
+    width:100px;
+}
+.Bbutton {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-family:"微软雅黑";
+    font_size:16px;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    height:30px;
+    width:120px;
+}
+input.btn-medium {
+    border: 0 none;
+    cursor: pointer;
+}
+input.min,input.add {
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+	  border: 1px solid rgb(204, 204, 204);
+    display: inline;
+    margin-right: 5px;
+	 font-size: inherit;
+}
+
+input.quantity{
+    height: 20px;
+    text-align: center;
+    width: 130px;
+	text-align:center;
+	font-size: inherit;
+}
+.font_red {
+	color:rgb(204, 0, 0);
+}
+.font_blue {
+	color:rgb(0,168,255);
+}
+.font_white {
+	color:rgb(255,255,255);
+}
+.font_orange {
+	color:rgb(255,171,17);
+}
+.font_small {
+	font-size:12px;
+}
+.font_big {
+	font-size:18px;
+}
+.center{
+	margin:0 auto;
+	padding:0 auto;
+}
